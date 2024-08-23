@@ -11,7 +11,7 @@ import SwiftUI
 struct PlaygroundSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginEmailView()
         }
     }
 }

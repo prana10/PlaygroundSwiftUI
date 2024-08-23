@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		261BD0EA2C5BCE7D003205AE /* PlaygroundSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BD0E92C5BCE7D003205AE /* PlaygroundSwiftUIApp.swift */; };
-		261BD0EC2C5BCE7D003205AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BD0EB2C5BCE7D003205AE /* ContentView.swift */; };
+		261BD0EC2C5BCE7D003205AE /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BD0EB2C5BCE7D003205AE /* SplashView.swift */; };
 		261BD0EE2C5BCE7F003205AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261BD0ED2C5BCE7F003205AE /* Assets.xcassets */; };
 		261BD0F12C5BCE7F003205AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261BD0F02C5BCE7F003205AE /* Preview Assets.xcassets */; };
 		261BD0FB2C5BCE7F003205AE /* PlaygroundSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BD0FA2C5BCE7F003205AE /* PlaygroundSwiftUITests.swift */; };
 		261BD1052C5BCE7F003205AE /* PlaygroundSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BD1042C5BCE7F003205AE /* PlaygroundSwiftUIUITests.swift */; };
 		261BD1072C5BCE7F003205AE /* PlaygroundSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261BD1062C5BCE7F003205AE /* PlaygroundSwiftUIUITestsLaunchTests.swift */; };
+		26B2F68D2C5BF69200AF96D7 /* LoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B2F68C2C5BF69200AF96D7 /* LoginEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		261BD0E62C5BCE7D003205AE /* PlaygroundSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261BD0E92C5BCE7D003205AE /* PlaygroundSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIApp.swift; sourceTree = "<group>"; };
-		261BD0EB2C5BCE7D003205AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		261BD0EB2C5BCE7D003205AE /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		261BD0ED2C5BCE7F003205AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		261BD0F02C5BCE7F003205AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		261BD0F62C5BCE7F003205AE /* PlaygroundSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		261BD1002C5BCE7F003205AE /* PlaygroundSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		261BD1042C5BCE7F003205AE /* PlaygroundSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIUITests.swift; sourceTree = "<group>"; };
 		261BD1062C5BCE7F003205AE /* PlaygroundSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26B2F68C2C5BF69200AF96D7 /* LoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				261BD0E92C5BCE7D003205AE /* PlaygroundSwiftUIApp.swift */,
-				261BD0EB2C5BCE7D003205AE /* ContentView.swift */,
+				261BD0EB2C5BCE7D003205AE /* SplashView.swift */,
 				261BD0ED2C5BCE7F003205AE /* Assets.xcassets */,
 				261BD0EF2C5BCE7F003205AE /* Preview Content */,
+				26B2F68C2C5BF69200AF96D7 /* LoginEmailView.swift */,
 			);
 			path = PlaygroundSwiftUI;
 			sourceTree = "<group>";
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261BD0EC2C5BCE7D003205AE /* ContentView.swift in Sources */,
+				261BD0EC2C5BCE7D003205AE /* SplashView.swift in Sources */,
+				26B2F68D2C5BF69200AF96D7 /* LoginEmailView.swift in Sources */,
 				261BD0EA2C5BCE7D003205AE /* PlaygroundSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
